@@ -10,9 +10,10 @@ Follow the instructions line-by-line.
 
 
 ==========
-1. Open Terminal.  Type:
-
+Type:
 $ ls<ENTER>
+
+
 
 Copy and paste the output of ls below.
 ----------
@@ -20,17 +21,22 @@ Code  Desktop  Documents  Downloads  Movies  Music  Pictures  textfile.txt
 
 
 ==========
-2a. Type: 
+Type: 
+$ 1s D<TAB>
 
 $ ls D<TAB>
+<TAB>
+
 
 What happens?  Describe it below.
+Nothing Happens.
 ----------
 Desktop/    Documents/  Downloads/
 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
+
 ----------
 rdrgeerwtger yg erwy brg
 
@@ -42,7 +48,7 @@ rdrgeerwtger yg erwy brg
 
 
 ==========
-3.  Type:
+$1s  -1 Documents<ENTER>
 
 $ ls -l Documents<ENTER>
 
