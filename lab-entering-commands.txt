@@ -10,20 +10,21 @@ Follow the instructions line-by-line.
 
 
 ==========
-Type:
+1. Open Terminal. Type:
 $ ls<ENTER>
 
 
 
 Copy and paste the output of ls below.
-dortebienaime  workspace.code-workspace
-dortebien@DESKTOP-1CDSC8N:~$ 
+
 ----------
-Code  Desktop  Documents  Downloads  Movies  Music  Pictures  textfile.txt
+dortebien@DESKTOP-1CDSC8N:~$ ls
+Desktop    Music     Videos         workspace.code-workspace
+Documents  Pictures  dortebienaime
 
 
 ==========
-Type: 
+2a. Type: 
 $ 1s D<TAB>
 
 $ ls D<TAB>
@@ -31,41 +32,29 @@ $ ls D<TAB>
 
 
 What happens?  Describe it below.
-Nothing happens when you press <TAB> once, but when you double press it different functions/file connected to ls appear.
+dortebien@DESKTOP-1CDSC8N:~$ ls D
+Desktop/   Documents/ 
 ----------
 Desktop/    Documents/  Downloads/
 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
-dortebien@DESKTOP-1CDSC8N:~$ ls
-ls               lshw             lsmproxy.dll
-lsasrv.dll       lsinitramfs      lsns
-lsasrv.mof       lsipc            lsof
-lsass.exe        lslocks          lspci
-lsattr           lslogins         lspgpot
-lsb_release      lsm.dll          lstelemetry.dll
-lsblk            lsmem            lsusb
-lscpu            lsmod            
-dortebien@DESKTOP-1CDSC8N:~$ ls
-ls               lshw             lsmproxy.dll
-lsasrv.dll       lsinitramfs      lsns
-lsasrv.mof       lsipc            lsof
-lsass.exe        lslocks          lspci
-lsattr           lslogins         lspgpot
-lsb_release      lsm.dll          lstelemetry.dll
-lsblk            lsmem            lsusb
-lscpu            lsmod     
+  
 ----------
-rdrgeerwtger yg erwy brg
-
-
+dortebien@DESKTOP-1CDSC8N:~$ ls D
+Desktop/   Documents/ 
+dortebien@DESKTOP-1CDSC8N:~$ ls D
+Desktop/   Documents/ 
+dortebien@DESKTOP-1CDSC8N:~$ ls D
+Desktop/   Documents  
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
-dortebien@DESKTOP-1CDSC8N:~$ ls
-dortebienaime  workspace.code-workspace
-----------
 
+----------
+dortebien@DESKTOP-1CDSC8N:~$ ls D
+ls: cannot access 'D': No such file or directory
+dortebien@DESKTOP-1CDSC8N:~$ 
 
 
 ==========
@@ -76,8 +65,8 @@ $ ls -l Documents<ENTER>
 Copy and paste the first *two lines* of output below.
 
 ----------
-dortebien@DESKTOP-1CDSC8N:~$ ls -1 Documents
-ls: cannot access 'Documents': No such file or directory
+Case_Document_7-1.doc
+Figure_7-4.pdf
 
 ==========
 4.  Type:
@@ -86,8 +75,8 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-dortebien@DESKTOP-1CDSC8N:~$ ls -a Documents
-ls: cannot access 'Documents': No such file or directory
+.   Case_Document_7-1.doc  sample-text-file.txt
+..  Figure_7-4.pdf
 
 
 ==========
@@ -117,7 +106,7 @@ $ ls /b<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
-The command is not found.
+The command is not found. ls: cannot access '/b': No such file or directory
 
 
 ==========
