@@ -30,7 +30,8 @@ If it doesn't start at #1 again, or ask for help before moving on!
 
 Copy and paste the output of pwd below.
 ----------
-
+/home/dortebien/mtec1003
+dortebien@DESKTOP-1CDSC8N:~/mtec1003$ 
 
 
 ==========
@@ -41,7 +42,8 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+dortebien@DESKTOP-1CDSC8N:~/mtec1003$ mkdir animalsdortebien@DESKTOP-1CDSC8N:~/mtec1003$ ls
+animals
 
 
 ==========
@@ -52,7 +54,10 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+dortebien@DESKTOP-1CDSC8N:~/mtec1003$ mkdir food
+dortebien@DESKTOP-1CDSC8N:~/mtec1003$ ls
+animals  food
+dortebien@DESKTOP-1CDSC8N:~/mtec1003$ 
 
 
 ==========
@@ -63,7 +68,10 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+dortebien@DESKTOP-1CDSC8N:~/mtec1003$ mkdir -p foo/bar/baz/qux
+dortebien@DESKTOP-1CDSC8N:~/mtec1003$ ls
+animals  foo  food
+dortebien@DESKTOP-1CDSC8N:~/mtec1003$ 
 
 
 ==========
@@ -74,7 +82,10 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+dortebien@DESKTOP-1CDSC8N:~/mtec1003$ cd foo/bar/baz/qux
+dortebien@DESKTOP-1CDSC8N:~/mtec1003/foo/bar/baz/qux$ pwd
+/home/dortebien/mtec1003/foo/bar/baz/qux
+dortebien@DESKTOP-1CDSC8N:~/mtec1003/foo/bar/baz/qux$ 
 
 
 ==========
@@ -85,7 +96,9 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+dortebien@DESKTOP-1CDSC8N:~/mtec1003/foo/bar$ pwd
+/home/dortebien/mtec1003/foo/bar
+dortebien@DESKTOP-1CDSC8N:~/mtec1003/foo/bar$ 
 
 
 ==========
@@ -96,7 +109,9 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+dortebien@DESKTOP-1CDSC8N:~/mtec1003/foo/bar/baz/qux$ pwd
+/home/dortebien/mtec1003/foo/bar/baz/qux
+dortebien@DESKTOP-1CDSC8N:~/mtec1003/foo/bar/baz/qux$ 
 
  
 ==========
@@ -107,7 +122,8 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+dortebien@DESKTOP-1CDSC8N:~/mtec1003$ pwd
+/home/dortebien/mtec1003
 
 
 ==========
@@ -119,7 +135,8 @@ $ ls -l
 
 Copy and paste the first two lines from the output into the space below.
 ----------
-
+foo
+food
 
 
 ==========
@@ -130,7 +147,9 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+dortebien@DESKTOP-1CDSC8N:~$ pwd
+/home/dortebien
+dortebien@DESKTOP-1CDSC8N:~$ 
 
 
 ==========
@@ -141,7 +160,9 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+dortebien@DESKTOP-1CDSC8N:/mnt$ pwd
+/mnt
+dortebien@DESKTOP-1CDSC8N:/mnt$ 
 
 
 ==========
@@ -152,7 +173,10 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+ cd /unknown_folder
+bash: cd: /unknown_folder: No such file or directory
+dortebien@DESKTOP-1CDSC8N:/mnt$ pwd
+/mnt
 
 
 ==========
@@ -163,13 +187,14 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+dortebien@DESKTOP-1CDSC8N:~/mtec1003$ pwd
+/home/dortebien/mtec1003
 
 
 ==========
 16a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
-
+$ pwd
 
 
 ==========
@@ -192,7 +217,7 @@ lemon
 
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
-
+dortebien@DESKTOP-1CDSC8N:~/mtec1003$ mkdir -p pineapple/orange/strawberry/lemon
 
 
 ==========
@@ -200,7 +225,7 @@ Use only one command to make all of these new directories.  Write what command y
 
 Write the command you used to create the directory below:
 ----------
-
+dortebien@DESKTOP-1CDSC8N:~/mtec1003$ mkdir aardvark
 
 
 ==========
@@ -208,7 +233,7 @@ Write the command you used to create the directory below:
 
 What is the modified date of the aardvark directory?
 ----------
-
+dortebien@DESKTOP-1CDSC8N:~/mtec1003$ mkdir aardvark
 
 
 ==========
@@ -220,14 +245,14 @@ What is the modified date of the aardvark directory?
 
 What command did you use?
 ----------
-
+cd bar/baz/foo
 
 
 ==========
 21. Change your directory so that you're in the inner most directory (baz)
 
 What command did you use?
-----------
+cd/
 
 
 
@@ -236,44 +261,45 @@ What command did you use?
 
 What command did you use?
 ----------
-
+cd ../../
 
 ==========
 23. What command is used to delete empty directories?
 ----------
-
+rmdir
 
 
 ==========
 24. What command is used to print out your current working directory?
 ----------
-
+pwd
 
 
 ==========
 25. What flag do I pass to ls to print out all files?
 ----------
-
+- a
 
 
 ==========
 26. What's the shortcut for home directory?
 ----------
-
+ls~
 
 
 ==========
 27. What's a pathname?
 ----------
-
+Location in the file system.
 
 
 ==========
 28. What's a directory?
 ----------
-
+A open folder that constructs the filesystem uses to organize files.
 
 
 ==========
 29. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+/home/dortebien/mtec1003
